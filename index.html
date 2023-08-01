@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap 5</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+     <style>
+      /* [class*="cont"] {
+            padding: 1rem;
+            border: 2px solid white;
+            background-color: rgb(24, 109, 183);
+        } */
+
+      [class*="col"] {
+        padding: 1rem;
+        border: 2px solid white;
+        background-color: rgb(47, 112, 12);
+        text-align: center;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Bootstrap 5</h1>
+    <div class="container">
+        <div class="row gx-4">
+            <div class="col-8  ">Main Content</div>
+            <div class="col-4">SideBar</div>
+        </div>
+
+
+
+        <div class="row gy-4">
+            <div class="col">
+                <div class="border p-4">Custom Gutter</div>
+            </div>
+            <div class="col">
+                <div class="border p-4">Custom Gutter</div>
+            </div>
+
+            <div class="col bg-primary"></div>
+            <div class="col bg-danger"></div>
+            <div class="col"></div>
+        </div>
+
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
